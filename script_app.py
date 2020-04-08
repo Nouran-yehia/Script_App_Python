@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import re
 import json
 import fileinput
@@ -6,7 +8,6 @@ import sys
 import os
 import os.path
 from os import path
-
 def welcome():
     guest_name = input("Please enter your name: ")
     if not guest_name:
